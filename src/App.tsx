@@ -1,11 +1,11 @@
 import * as React from 'react'
-import Routes from 'routes'
+import FrontPage from 'components/pages/FrontPage'
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Routes />
+        <FrontPage title="hello" />
       </div>
     )
   }
