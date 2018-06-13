@@ -1,12 +1,14 @@
 import * as React from 'react'
-import FrontPage from 'components/pages/FrontPage'
+import IntroSection from 'components/sections/IntroSection'
+import InfoSection from 'components/sections/InfoSection'
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <FrontPage title="hello" />
-      </div>
+      <>
+        <IntroSection />
+        <InfoSection />
+      </>
     )
   }
 }
